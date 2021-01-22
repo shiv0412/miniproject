@@ -1,0 +1,398 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#carouselExampleIndicators {
+  overflow: hidden;
+  width: 100%;
+  height: 25vh;
+}
+
+.headimg {
+  width: 100%;
+  height: 25vh;
+}
+#main {
+  width: 100%;
+}
+#left {
+  float: left;
+  height: 75vh;
+  width: 16.7%;
+  background-color: #545454;
+  border-right: 2px solid black;
+}
+#right {
+  float: left;
+  height: 75vh;
+  width: 83.3%;
+}
+#left ul {
+  list-style-type: none;
+  text-align: center;
+}
+#left li {
+  color: #fff;
+  background-color: #c11b0a;
+  margin: 15px 10px;
+  padding: 7px 0px;
+  font-family: "Arvo", serif;
+  font-size: 2vw;
+  box-shadow: 1px 1px 5px 2px #d6d4d4;
+  border-radius: 5px;
+}
+#left a {
+  text-decoration: none;
+}
+#left li:hover {
+  background-color: #50d8f2;
+}
+#frame {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+#be {
+  margin-top: 10px;
+  background-color: blueviolet;
+  text-align: center;
+  color: #fff;
+  font-family: "Arvo", serif;
+  box-shadow: 1px 1px 5px 4px #7e7e7e;
+}
+#tab table {
+  width: 100%;
+  box-shadow: 1px 1px 5px 4px #7e7e7e;
+}
+#tab table th,
+td {
+  border: 1px solid;
+}
+#tab th {
+  padding: 10px 0px;
+  font-family: "Arvo", serif;
+  text-align: center;
+  background-color: #daf7a6;
+}
+#tab td {
+  font-family: "Arvo", serif;
+  padding: 5px 2px;
+  text-align: center;
+}
+#tab tr:nth-child(odd) {
+  background-color: darkgray;
+}
+#tab caption {
+  box-shadow: 1px 1px 5px 4px #7e7e7e;
+  caption-side: top;
+  background-color: red;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 10px;
+  font-family: "Arvo", serif;
+}
+
+.formstyle {
+  box-shadow: 1px 1px 5px 4px #7e7e7e;
+  background-image: linear-gradient(to right, #bbbcba, #fff);
+}
+.formstyle .form-row {
+  padding: 0px 15px;
+}
+.formstyle h2 {
+  text-align: center;
+  font-family: "Arvo", serif;
+  color: #fff;
+  background-color: #767775;
+  border-radius: 5px;
+}
+#btn {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: "Arvo", serif;
+}
+.formstyle label {
+  color: black;
+  font-family: "Arvo", serif;
+}
+#backbtn {
+  padding: 10px;
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  box-shadow: 1px 1px 5px 4px #7e7e7e;
+  font-family: "Arvo", serif;
+}
+#backbtn:hover {
+  background-color: #959595;
+}
+#search {
+  padding: 20px 0px;
+  text-align: center;
+  background-color: ;
+}
+#search label {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Arvo", serif;
+}
+#search select {
+  margin-left: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+#search1 {
+  background-color: #e33a13;
+  display: inline;
+  padding: 15px;
+  box-shadow: 1px 1px 5px 4px #7e7e7e;
+  border-radius: 5px;
+}
+#in {
+  border: none;
+  padding: 5px 30px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #34c2f1;
+  font-family: "Arvo", serif;
+  margin-top: 15px;
+  box-shadow: 1px 1px 5px 4px #7e7e7e;
+  border-radius: 5px;
+}
+#in:hover {
+  cursor: pointer;
+  background-color: #1883a6;
+}
+#searchtable {
+  width: 100%;
+  border-collapse: collapse;
+}
+#searchtable th,
+td {
+  border: 1px solid black;
+}
+#searchtable th {
+  padding: 10px;
+  text-align: center;
+  background-color: #2c3e50;
+  color: #fff;
+  font-family: "Arvo", serif;
+}
+#searchtable td {
+  padding: 10px;
+  text-align: center;
+  font-family: "Arvo", serif;
+}
+#mytablediv {
+  padding: 20px 10px;
+  overflow-x: auto;
+}
+
+#contacthead h2 {
+  padding: 15px 0px;
+  text-align: center;
+  text-shadow: 1px 1px 5px #f23401;
+  font-family: "Arvo", serif;
+  font-weight: bold;
+}
+#myform {
+  background-color: white;
+  box-shadow: 1px 1px 5px 4px #d5dbdb;
+  padding: 20px 20px;
+}
+#aboutme {
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+}
+#aboutme img {
+  height: 200px;
+  width: 200px;
+}
+#title h2 {
+  font-family: "Arvo", serif;
+  font-style: italic;
+  color: #9c1a1a;
+  padding: 0px 5px;
+  text-align: justify;
+}
+
+#details {
+  padding: 13px;
+}
+#details p {
+  text-align: justify;
+  font-family: "Arvo", serif;
+  box-shadow: 1px 1px 5px 4px #d5dbdb;
+  padding: 5px;
+}
+
+#details h3 {
+  font-family: "Arvo", serif;
+  display: inline;
+  background-color: #f70e0e;
+  color: #fff;
+  box-shadow: 1px 1px 5px 4px #d5dbdb;
+}
+#divi {
+  background-image: url(img/back1.jpg);
+  background-size: 100% 100%;
+}
+#log {
+  box-shadow: 1px 1px 5px 4px #d5dbdb;
+  height: 33vh;
+  text-align: center;
+  background-image: linear-gradient(to right, #bbbcba, #fff);
+  padding-top: 20px;
+  margin: auto;
+  width: 50%;
+}
+#log input {
+  margin: 10px 0px;
+  border: 2px solid #0e7cf7;
+  padding: 3px;
+}
+#sub {
+  border: 0px solid;
+  padding: 0px 10px;
+  border-radius: 3px;
+  background-color: #0ed7f7;
+}
+#ad {
+  text-align: center;
+  padding-top: 50px;
+}
+#manage {
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+#manage h2 {
+  padding-top: 10px;
+  color: #616363;
+  font-family: "Arvo", serif;
+}
+#mytab {
+  margin-top: 20px;
+}
+#mytab table {
+  width: 100%;
+}
+#mytab th {
+  text-align: center;
+  padding: 10px;
+  background-color: #9becfa;
+}
+#mytab tr {
+  text-align: center;
+}
+#mytab tr:nth-child(odd) {
+  background-color: #cfcfcf;
+}
+#rmdiv form {
+  margin-top: 40px;
+  text-align: center;
+}
+#rmdiv input {
+  margin-left: 10px;
+}
+#add {
+  margin-top: 40px;
+}
+#add label {
+  font-weight: bold;
+  font-family: "Arvo", serif;
+}
+#blood {
+  border: 1px solid;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 10px 10px;
+  box-shadow: 1px 1px 5px 4px #d5dbdb;
+}
+#addclk {
+  padding: 5px 20px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px 4px #d5dbdb;
+  font-family: "Arvo", serif;
+}
+#addclk:hover {
+  border: 1px solid;
+  background-color: red;
+  color: #fff;
+  box-shadow: 1px 1px 5px 4px #d5dbdb;
+}
+#rmdiv2 {
+  margin-top: 40px;
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+  box-shadow: 1px 1px 5px 4px #d5dbdb;
+}
+#rmdiv2 input {
+  width: 50%;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  box-shadow: 1px 1px 5px 4px #d5dbdb;
+}
+#del {
+  padding: 0px 10px;
+  background-color: #38d7d1;
+  border: 0px solid;
+  border-radius: 5px;
+}
+#del:hover {
+  background-color: #1caaa4;
+  border: 0px solid;
+}
+.activity {
+  height: 200px;
+  padding: 10px;
+}
+#inner-1 {
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  box-shadow: 1px 1px 5px 4px #a9aaaa;
+}
+#act {
+  text-align: center;
+  padding: 60px 0px;
+  font-family: "Arvo", serif;
+  color: #fff;
+}
+#headadmin {
+  text-align: center;
+}
+#headadmin h1 {
+  padding: 25px 0px;
+  font-family: "Arvo", serif;
+  text-shadow: 2px 2px 5px red;
+}
+@media (min-width: 992px) {
+  #left li {
+    font-size: 3vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (max-width: 767px) {
+  .formstyle {
+    background-color: red;
+    padding: 5px 10px;
+    margin: 0px 0px;
+  }
+  .formstyle label {
+    font-size: 3vh;
+  }
+  .formstyle h2 {
+    font-size: 25px;
+  }
+  #be {
+    font-size: 19px;
+  }
+  #phome {
+    font-size: 12px;
+  }
+}

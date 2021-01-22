@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="homepage.css" />
+  </head>
+  <body>
+    <div class="index_header_section">
+      <div class="navbar_area">
+        <!--------Top Navigation Menu---------------->
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="">Home</a>
+          <a href="contact_us_form.php">Contact Us</a>
+          <a href="about_us.html">About Us</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <!--------Top Navigation Menu End---------------->
+
+        <!------Cover ------------>
+        <div class="index_header">
+          <img src="img/cover_img.jpg" class="cover_image" />
+          <h1>Digital Blood Bank</h1>
+        </div>
+        <!-----------Cover End-------------->
+      </div>
+    </div>
+    <!--------------- Navbar and Cover End Here-->
+    <div class="content_section">
+      <h2>Our Services</h2>
+      <hr />
+      <div class="services_container col-md-12 col-lg-12 col-sm-12">
+        <div class="col-md-4 col-lg-4 col-sm-12 service_div">
+          <a href="donar.html" target="_self">
+            <div>
+              <img src="img/blooddonation.png" />
+              <h3>Blood Donar</h3>
+            </div></a
+          >
+          <p>
+            Be a lifesaver by donating blood to needy ones. View and register
+            for blood donation services.
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-12 service_div">
+          <a href="receiver.html" target="_self">
+            <div>
+              <img src="img/receiver.png" />
+              <h3>Blood Receiver</h3>
+            </div>
+          </a>
+          <p>
+            Search for nearby donar and bloodbanks. Get contact and navigation
+            details of users and blood banks
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-12 service_div">
+          <a href="bloodbank.html" target="_self">
+            <div>
+              <img src="img/blood-bank.png" />
+              <h3>Blood Bank</h3>
+            </div></a
+          >
+          <p>Register blood bank and start serving to the community</p>
+        </div>
+      </div>
+    </div>
+    <!----------footer Area-------->
+    <div class="footer_container">
+      <div class="footer_content">
+        <div class="col-sm-12 col-lg-6 col-md-6">
+          <center>
+            <table>
+              <tr>
+                <td>
+                  <h4>Reach Us At</h4>
+                  <center><hr /></center>
+                </td>
+              </tr>
+              <tr>
+                <td>Nh-24,Near Crossing Republic</td>
+              </tr>
+              <tr>
+                <td>Ghaziabad,Uttar Pradesh</td>
+              </tr>
+              <tr>
+                <td>Pincode-201002</td>
+              </tr>
+            </table>
+          </center>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-4 set_border">
+          <center>
+            <table>
+              <tr>
+                <td>
+                  <h4>Contact Details</h4>
+                  <center><hr /></center>
+                </td>
+              </tr>
+              <tr>
+                <td>Tel:9000000000</td>
+              </tr>
+              <tr>
+                <td>Email:bloodbank@mail.com</td>
+              </tr>
+            </table>
+          </center>
+        </div>
+        <div class="copyright"><p>2021 &copy Digital Blood Bank</p></div>
+      </div>
+    </div>
+
+    <!----------footer Area End Here-------->
+
+    <!-- -------------End Of Html5 Content ---------------->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

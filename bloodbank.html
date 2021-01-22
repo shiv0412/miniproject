@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="header_container">
+      <!--------Top Navigation Menu---------------->
+      <div class="menu_bar_container">
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="">Home</a>
+          <a href="contact_us_form.php">Contact Us</a>
+          <a href="about_us.html">About Us</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <!--------Top Navigation Menu End---------------->
+      <!--------Main Content Area---------------------->
+      <div class="cover_image_container">
+        <h1>Digital Blood Bank</h1>
+      </div>
+    </div>
+    <div class="main_content_container">
+      <h2>Blood Bank Support Services</h2>
+      <hr />
+      <div class="service_containers">
+        <a href="bloodbank_register.html" target="_self">
+          <div>
+            <img src="img/register.png" />
+            <h3>Register Blood Bank</h3>
+          </div>
+        </a>
+        <p>
+          Want to serve more peoples this platform is for you. Register your
+          organization now.
+        </p>
+      </div>
+      <div class="service_containers">
+        <a href="blood_camp_register.html" target="_self">
+          <div>
+            <img src="img/camp.png" />
+            <h3>Organize Donation Camp</h3>
+          </div>
+        </a>
+        <p>Start your own Voluntary blood donation program.</p>
+      </div>
+      <div class="service_containers">
+        <a href="admin_login.php" target="_blank">
+          <div>
+            <img src="img/login.png" />
+            <h3>Login</h3>
+          </div>
+        </a>
+        <p>Login as blood bank to manage user data, stocks and queries.</p>
+      </div>
+    </div>
+    <div class="navigate_icon_content">
+      <a href="index.html" target="_self" title="Back"
+        ><img src="img/go_back.png" class="go_back"
+      /></a>
+      <a href="index.html" target="_self" title="Home"
+        ><img src="img/go_home.png" class="go_home"
+      /></a>
+    </div>
+    <!--------Main Content Area Ends Here---------------------->
+    <!--------Footer Area-------------------------------------->
+    <div class="footer_container">
+      <div class="footer_content">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <center>
+            <table>
+              <tr>
+                <td>
+                  <h4>Reach Us At</h4>
+                  <center><hr /></center>
+                </td>
+              </tr>
+              <tr>
+                <td>NH-24,Near Crossing Republic</td>
+              </tr>
+              <tr>
+                <td>Ghaziabad,Uttar Pradesh</td>
+              </tr>
+              <tr>
+                <td>Pin-201002</td>
+              </tr>
+            </table>
+          </center>
+        </div>
+        <div
+          class="col-sm-12 col-md-6 col-lg-6"
+          style="border-left: 1px solid #ddd"
+        >
+          <center>
+            <table>
+              <tr>
+                <td>
+                  <h4>Contacts</h4>
+                  <center><hr /></center>
+                </td>
+              </tr>
+              <tr>
+                <td>tel-9000000000</td>
+              </tr>
+              <tr>
+                <td>Email-bloodbank@mail.com</td>
+              </tr>
+            </table>
+          </center>
+        </div>
+        <div class="copyright"><p>2021 &copy Digital Blood Bank</p></div>
+      </div>
+    </div>
+    <!--------Footer Area End HEre-------------------------------------->
+    <!-- -------------End Of Html5 Content ---------------->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
